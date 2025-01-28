@@ -14,6 +14,12 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+.owner {
+  ul{
+    list-style-type: none;
+    margin-left: -40px;
+  }
+}
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -68,4 +74,19 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+img{
+  padding-top: 10px;
+}
+.skip-link li{
+list-style-type: none;
+}
+.skip-link a{
+  position: absolute;
+  top:-2rem;
+  background-color: black;
+  color: aliceblue;
+}
+.skip-link a:focus{
+  top:0;
 }
